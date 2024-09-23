@@ -18,7 +18,7 @@ function aumentarnivel(numero) {
         }
     }
 
-    return numero;
+    return numero; 
 }
 
 
