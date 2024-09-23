@@ -23,9 +23,9 @@ for (let index = 0; index < ntriangulo; index++) {
 
 //Ejercicio 4
 let nEnt = prompt("Dime un numero");
-for (let index = 0; index <= nEnt; index++) {
+for (let index = 1; index <= nEnt; index+=2) {
     let fila = "";
-    for (let j = index; j >= 1; j -= 2) {
+    for (let j = index; j*2 >= 1; j-=2) {
         fila += j + " " ;
     }
     console.log(fila);
