@@ -9,7 +9,7 @@ function dados(){
     switch (dado1) {
         case 1: valor1++;
         break;
-        
+         
         case 2: valor2++;
         break;
 
