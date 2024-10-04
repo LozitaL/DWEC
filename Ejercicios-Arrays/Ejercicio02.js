@@ -17,8 +17,9 @@ for(i = 0; i < n; i++){
     }
     else if(n === ""){
         b[i] = b;
+        Strings++;
     }
-    else if(n )
+    
     
    
     
