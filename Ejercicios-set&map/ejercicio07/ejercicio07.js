@@ -10,12 +10,15 @@ function addproducto(){
         cantidad = parseInt(prompt("¿Cuantas existencias tienes?"));
         
         if(map1.has(value)){
-            (alert("Este codigo ya tiene un producto asociado"))
-            i-1;
+            alert("Este codigo ya tiene un producto asociado")
+            i = i-1;
         }
             else{ map1.set(value,[producto,cantidad])}
         if(!map1.has(value)){
-            if(map1.has(producto)) {(alert("Este producto ya ha sido añadido"))}
+            if(map1.has(producto)) {
+                alert("Este producto ya ha sido añadido"); 
+                i = i-1;
+            }
             else{ map1.set(value,[producto,cantidad])}
         }
     }
