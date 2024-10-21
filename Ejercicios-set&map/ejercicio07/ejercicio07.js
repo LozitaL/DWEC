@@ -4,6 +4,7 @@ function addproducto(){
     let value = 0;
     let producto = "";
     let cantidad = 0;
+
     for(i = 0; i < nproductos ; i++){
         value = parseInt(prompt("Codigo"));
         producto = prompt("Nombre del producto");
