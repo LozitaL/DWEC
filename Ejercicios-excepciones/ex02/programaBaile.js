@@ -19,6 +19,8 @@ class InscripcionInvalidaError extends ExcepcionBailesSalon{
     }
 }
 
+
+
 class Baile {
     #nombre
     #dificultad
@@ -33,7 +35,7 @@ class Baile {
 
     set nombre(nombre){
         if (valor >= 1 && valor <= 5) {
-            this._dificultad = valor;  
+            this._dificultad = valor;
           } else {
             console.log("La dificultad debe estar entre 1 y 5.");
           }
