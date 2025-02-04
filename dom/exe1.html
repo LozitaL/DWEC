@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>t</title>
+</head>
+<body>
+    <div id="prueba" style="background-color: aquamarine; height: 200px; width: 200px;" ></div>
+    
+    <script>
+        const eventot = document.getElementById("prueba");
+        eventot.addEventListener("mouseenter",() => 
+        {
+            eventot.textContent = "buenos dias";
+            eventot.style.backgroundColor="gray";
+    });
+
+        eventot.addEventListener("mouseout" ,() => {
+            eventot.textContent = "hasta luego";
+            eventot.style.backgroundColor="red";
+        });
+    </script>
+</body>
+</html>
